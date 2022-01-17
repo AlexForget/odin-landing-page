@@ -154,7 +154,6 @@ main {
   background-color: #e5e7eb;
   display: flex;
   flex-direction: column;
-  padding: 0 150px;
   padding: 100px;
   justify-content: center;
   align-items: center;
@@ -175,6 +174,39 @@ figcaption {
   font-weight: bold;
   color: #1f2937;
 }
+
+/*  SECTION SIGN-UP  */
+
+.sign-up {
+  display: flex;
+  padding: 150px;
+  align-items: center;
+}
+
+.container-sign-up {
+  background-color: #3882f6;
+  flex-grow: 1;
+  border-radius: 8px;
+  padding: 50px 0px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.sign-up-title {
+  color: #f9faf8;
+  font-size: 24px;
+}
+
+.sign-up-info {
+  color: #e5e7eb;
+  font-size: 18px;
+}
+
+.container-sign-up button {
+  border: 3px solid #e5e7eb;
+}
+
+/*  SECTION FOOTER  */
 
 footer {
   background-color: #1f2937;
