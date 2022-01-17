@@ -175,3 +175,13 @@ figcaption {
   font-weight: bold;
   color: #1f2937;
 }
+
+footer {
+  background-color: #1f2937;
+  color: #f9faf8;
+  display: flex;
+  padding: 0 150px;
+  align-items: center;
+  justify-content: center;
+  height: 80px;
+}
