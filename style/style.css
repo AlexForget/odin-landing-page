@@ -152,4 +152,26 @@ main {
 
 .quote {
   background-color: #e5e7eb;
+  display: flex;
+  flex-direction: column;
+  padding: 0 150px;
+  padding: 100px;
+  justify-content: center;
+  align-items: center;
+}
+
+blockquote {
+  font-size: 24px;
+  padding: 0 130px;
+  font-weight: 100;
+  font-style: italic;
+  color: #1f2937;
+}
+
+figcaption {
+  align-self: flex-end;
+  padding-right: 120px;
+  font-size: 36px;
+  font-weight: bold;
+  color: #1f2937;
 }
