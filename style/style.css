@@ -4,7 +4,18 @@ body {
   margin: 0;
 
   /*TEMP*/
-  gap: 30px;
+  /*gap: 30px;*/
+}
+
+button {
+  width: 150px;
+  height: 40px;
+  background-color: #3882f6;
+  border-radius: 8px;
+  border: none;
+  color: #f9faf8;
+  font-weight: bold;
+  font-size: 18px;
 }
 
 /*  SECTION HEADER  */
@@ -19,16 +30,22 @@ header {
 
 header p {
   margin: 0;
-  font-size: 24px;
+  font-size: 36px;
   font-weight: bold;
+  color: #f9faf8;
 }
 
-ul {
+.header-links {
   display: flex;
   list-style-type: none;
   margin-left: auto;
   gap: 30px;
   padding: 0;
+}
+
+.header-links li {
+  color: #f9faf8;
+  font-size: 18px;
 }
 
 /*  SECTION ACCUEIL  */
@@ -37,9 +54,36 @@ ul {
   background-color: #1f2937;
   color: #f9faf8;
   padding: 0 150px;
+  height: 500px;
   display: flex;
+  align-items: center;
 }
 
-.accueil img {
+.container-accueil {
+  display: flex;
+  gap: 30px;
+}
+
+.accueil-text-button {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.accueil-title {
+  font-weight: bold;
+  font-size: 48px;
+  color: #f9faf8;
+}
+
+.accueil-subtext {
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+.presentoir {
   display: block;
+  height: 235px;
+  object-fit: cover;
+  object-position: 50% 80%;
 }
