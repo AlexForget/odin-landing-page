@@ -61,7 +61,10 @@ header p {
 
 .container-accueil {
   display: flex;
-  gap: 30px;
+  flex-direction: row;
+  /*justify-content: space-between;
+
+  THA FUCK CALISS!!!*/
 }
 
 .accueil-text-button {
@@ -78,12 +81,75 @@ header p {
 
 .accueil-subtext {
   font-size: 18px;
-  color: #e5e7eb;
+  color: #f9faf8;
+}
+
+.accueil-img {
+  margin-left: auto;
 }
 
 .presentoir {
-  display: block;
   height: 235px;
+  width: 600px;
   object-fit: cover;
-  object-position: 50% 80%;
+  object-position: 50% 30%;
+  margin-left: 30px;
+}
+
+/*  SECTION MAIN  */
+
+main {
+  display: flex;
+  flex-direction: column;
+  padding: 0 150px;
+  height: 480px;
+}
+
+.main-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 50px;
+}
+
+.main-header p {
+  margin: 0;
+  font-weight: bold;
+  font-size: 36px;
+  color: #1f2937;
+}
+
+.main-list {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  gap: 50px;
+  flex-wrap: wrap;
+  color: #1f2937;
+}
+
+.mais-list-img {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: 180px;
+}
+
+.mais-list-img img {
+  height: 160px;
+  width: 160px;
+  object-fit: cover;
+  object-position: 50% 50%;
+  display: block;
+  border: 3px solid #3882f6;
+  border-radius: 16px;
+}
+
+/*  SECTION QUOTE  */
+
+.quote {
+  background-color: #e5e7eb;
 }
