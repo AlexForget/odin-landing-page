@@ -1,8 +1,45 @@
 body {
   display: flex;
   flex-direction: column;
-  height: 1000px;
-  justify-content: space-between;
+  margin: 0;
+
   /*TEMP*/
   gap: 30px;
+}
+
+/*  SECTION HEADER  */
+
+header {
+  background-color: #1f2937;
+  color: #f9faf8;
+  display: flex;
+  padding: 0 150px;
+  align-items: center;
+}
+
+header p {
+  margin: 0;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+ul {
+  display: flex;
+  list-style-type: none;
+  margin-left: auto;
+  gap: 30px;
+  padding: 0;
+}
+
+/*  SECTION ACCUEIL  */
+
+.accueil {
+  background-color: #1f2937;
+  color: #f9faf8;
+  padding: 0 150px;
+  display: flex;
+}
+
+.accueil img {
+  display: block;
 }
